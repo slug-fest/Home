@@ -1,0 +1,9 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+#mainPlayer {
+    height: 100vh;
+    aspect-ratio: 16 / 9;
+}

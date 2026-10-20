@@ -1,20 +1,18 @@
 <!doctype html>
 <html lang="en-US">
     <head>
-        <style>
-            * {
-                padding: 0px;
-                margin: 0px;
-            }
-            #mainPlayer {
-                height: 100vh;
-                aspect-ratio: 16 / 9;
-            }
-        </style>
+        <link href="styles/style.css" rel="stylesheet"/>
+        <script src="scripts/script.js" defer></script>
     </head>
     <body>
         <div id="mainPlayer">
-            <iframe src="https://www.youtube-nocookie.com/embed/-d60Tl6I4BY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe height="100%" width="100%" src="https://www.youtube-nocookie.com/embed/-d60Tl6I4BY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div id="sidebar">
+            <input id="url" type="text"/>
+            <div id="playlist">
+
+            </div>
         </div>
     </body>
 </html>
